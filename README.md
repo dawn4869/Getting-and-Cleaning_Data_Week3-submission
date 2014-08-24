@@ -10,7 +10,6 @@ The last two columns are infomration about activity and subjects involved
 To read the file can use
 data<-read.table("data.submission.txt")
 
-Following is the outline for data processing:
 
 For more details please follow the sections lines and explaination in the R code
 
