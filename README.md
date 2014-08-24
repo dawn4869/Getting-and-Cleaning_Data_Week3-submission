@@ -12,29 +12,5 @@ data<-read.table("data.submission.txt")
 
 Following is the outline for data processing:
 
-# Read all the files and get a clear idea of contents in each file---------------------------------------
+For more details please follow the sections lines and explaination in the R code
 
-# Make a dataset for all TEST data===================================================================
-# Combine label and set------------------------------------------------------------------------------
-
-# Only keep mean and std value for each measurement---------------------------------------------------
-
-# Label activity number using activity name-------------------------------------------------------------
-
-# Add subject information-------------------------------------------------------------------------------
-
-# Creat a new vector labeling as "test"-----------------------------------------------------------------
-
-# Make a dataset for all TRAIN data=====================================================================
-# Combine label and set------------------------------------------------------------------------------
-# Only keep mean and std value for each measurement---------------------------------------------------
-# Label activity number using activity name-------------------------------------------------------------
-# Add subject information-------------------------------------------------------------------------------
-# Creat a new vector labeling as "test"-----------------------------------------------------------------
-
-# Combine 2 datasets========================================================================================
-# Generate the second data set, hence, calculate the average value for each variable for each activity and each subject==========
-# Calculate the average of each variable for each subject-------------------------------------------------
-
-# Write a table======================================================================================
-write.table(data.cleaned,file="data.submission.txt",row.names=FALSE)
