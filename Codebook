@@ -1,0 +1,9 @@
+Submit for course project
+
+This dataset contains 181 observations of 81 variables The V1 to V79 column are the average for each variable for each project and each subject The last two columns are infomration about activity and subjects involved
+
+The data is layout as each activity, each activity has information on the measurement for every subjetc
+
+To read the file can use data<-read.table("data.submission.txt")
+
+For more details please follow the sections lines and explaination in the R code
