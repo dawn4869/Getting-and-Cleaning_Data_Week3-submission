@@ -2,8 +2,43 @@ Submit for course project
 
 This dataset contains 181 observations of 81 variables The V1 to V79 column are the average for each variable for each project and each subject The last two columns are infomration about activity and subjects involved
 
-The data is layout as each activity, each activity has information on the measurement for every subjetc
+The data is layout as each activity, each activity has information on the measurement for every subject (in total 30)
+
+Six Activity include:
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Measurements include:
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
 
 To read the file can use data<-read.table("data.submission.txt")
 
-For more details please follow the sections lines and explaination in the R code
+For more details about how the data is constructed via raw files, please follow the sections lines and explaination in the R code
